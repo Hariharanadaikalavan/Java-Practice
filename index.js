@@ -13,13 +13,10 @@ function addInput(){
 
 
     const email=document.createElement("input")
-    email.type="email";
-    email.placeholder="Enter your E-mail";
+    email.type="password";
+    email.placeholder="Enter your password";
 
-    const password=document.createElement("input");
-    password.type="password";
-    password.placeholder="Enter your password";
-    
+        
 
     const btn=document.createElement("a")
     btn.className="delete";
@@ -34,7 +31,7 @@ function addInput(){
     flex.appendChild(name);
     flex.appendChild(email)
     flex.appendChild(btn);
-    flex.appendChild(password);
+   
 }
 
 
