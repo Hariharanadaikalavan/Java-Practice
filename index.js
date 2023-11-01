@@ -1,44 +1,15 @@
-const addbtn=document.querySelector(".add");
-const input=document.querySelector(".inputfield");
+document.getElementById('btnadd').addEventListener("click",add);
+ 
 
-
-
-addbtn.addEventListener("click",addInput);
-
-function addInput(){
-    
-    const name=document.createElement("input")
-    name.type="text";
-    name.placeholder="Enter your Name";
-
-
-    const email=document.createElement("input")
-    email.type="password";
-    email.placeholder="Enter your password";
-
-        
-
-    const btn=document.createElement("a")
-    btn.className="delete";
-    btn.innerHTML="&times";
-
-    btn.addEventListener("click", removeInput);
-    
-    const flex=document.createElement("div");
-    flex.className="flex";
-    
-    input.appendChild(flex);
-    flex.appendChild(name);
-    flex.appendChild(email)
-    flex.appendChild(btn);
+function add()
+ {
+    var result= document.getElementById("textbox").value;
+    listNode=document.getElementById("list");
+   liNode=document.createElement("li");
+   textNode=document.createTextNode(result);
    
-}
 
+   liNode.appendChild(textNode);
+   listNode.appendChild(liNode);
 
-
-
-function removeInput()
-{
-    this.parentElement.remove();
-}
-
+ }
