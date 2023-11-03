@@ -1,15 +1,27 @@
-document.getElementById('btnadd').addEventListener("click",add);
- 
+var arr=[];
+  
+
+document.getElementById('btnid').addEventListener("click",addtotable)
+
+function addtotable(){
+
+   var stockItem = document.getElementById("textbox").value;
+   arr.push(stockItem);
+   document.getElementById('textbox').value="";
+   add();
+}
 
 function add()
- {
-    var result= document.getElementById("textbox").value;
-    listNode=document.getElementById("list");
-   liNode=document.createElement("li");
-   textNode=document.createTextNode(result);
+{
+   var registernumber=0;
+   var emptystr=" ";
+  
    
+    arr.forEach(() =>
+    {
+      registernumber=registernumber+1;
 
-   liNode.appendChild(textNode);
-   listNode.appendChild(liNode);
-
- }
+      emptystr=emptystr+ `<tr><td> ${registernumber} </td><td> ${textbox} </td></tr><tr>`;   
+    })
+    document.getElementById('table').innerHTML=emptystr;
+}
