@@ -3,18 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hariharan</title>
+    <title>Document</title>
 </head>
+<style>
+    #table{
+        background-color: aqua;
+    }
+    .background{
+        border: 1px solid blueviolet;
+        background-color: blueviolet;
+        padding: 20px;
+        display:inline-block;
+      margin-top: 10%;
+        font-size: x-large;
+    }
+    #btnid,#textbox{
+        height: 30px;
+    }
+</style>
 <body>
+
+   <center> <div class="background">
     <input type="text" id="textbox">
-    <input type="button" value="add to cart" id="btnadd">
-    <input type="button" value="Remove form Cart" id="btnremove">
-    <input type="button" value="Edit" id="btnedit">
-
-    <ul id="list">
-     <li>HTML</li>
-    </ul>
-
+    <input type="button" value="Add to Table" id="btnid">
+    <br><br>
+    
+    <table border="2px" >
+        <tr>
+            <th>Register Number</th>
+            <th>Name of the Student</th>
+        </tr>
+    <tbody id="table">
+           <td>1</td>
+           <td>Hariharan</td>
+           
+    </tbody>    
+            
+    </table>
+</div></center>
     <script src="./index.js"></script>
 </body>
 </html>
