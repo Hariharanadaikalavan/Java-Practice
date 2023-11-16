@@ -1,4 +1,4 @@
-public class Characters   
+public class Characters     
 {  
      public static void main(String[] args) {  
         String str = "grass is greener on the other side";  
