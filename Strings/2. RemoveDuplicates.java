@@ -1,7 +1,7 @@
 import java.util.*;     
   
 //Create RemoveDuplicatesExample4 class to remove duplicates from the string   
-class RemoveDuplicatesExample4 {   
+class RemoveDuplicates {   
         
     // Create removeDuplicates() method to remove duplicates using indexOf() method  
     public static void removeDuplicates(String str)   
