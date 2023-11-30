@@ -1,19 +1,15 @@
-import java.util.Scanner;
 public class RepeatingValue {
-    public static void main(String args[]){
-        Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the number want to find Occurrence of digits");
-     
-        int num1=sc.nextInt(),count=0;
-           System.out.println("Reapted digits");
-      int RepeatingValue=sc.nextInt();
-        while(num1!=0)
+    public static void main(String args[]){   
+        int count=0;
+        int Number=9894470748;
+        while(Number!=0)
         {
-           int remainder=num1%10;
-            if(remainder==RepeatingValue){
-            count++;
-            }
-            num1=num1/10;
+                   int remainder=Number%10;
+                   if(remainder==9)
+                   {
+                    count++;
+                   }
+                 Number=Number/10;
         }
         System.out.println("Repeted digits"+RepeatingValue+"-"+count);
         
