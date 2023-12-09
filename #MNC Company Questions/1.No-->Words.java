@@ -24,7 +24,7 @@ public class NumbersToStrings {
            }else if(Number>=20 && Number<=100){
                System.out.println(twoDigits[TenPlace]+" "+singleDigits[unitPlace]);
            }else{
-               System.out.println(singleDigits[HundredPlace]+" "+Hundred+" "+twoDigits[TenPlace]+" "+singleDigits[unitPlace]);
+               System.err.println(singleDigits[HundredPlace]+" "+Hundred+" "+twoDigits[TenPlace]+" "+singleDigits[unitPlace]);
                
            }
             
