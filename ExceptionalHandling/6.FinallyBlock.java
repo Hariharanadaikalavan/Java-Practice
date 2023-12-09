@@ -11,7 +11,7 @@ System.out.println(e);
 }    
 //executed regardless of exception occurred or not  
  finally {  
-System.out.println("finally block is always executed");  
+System.out.println("finally block is always executed...");  
 }    
     
 System.out.println("rest of phe code...");    
