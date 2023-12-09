@@ -3,7 +3,7 @@ public class whileLoop {
      String a="";
      while(a.length()!=2)
         
-     a=a+"a";
+     a=a+"aa";
      System.out.println(a);
      
  }   
