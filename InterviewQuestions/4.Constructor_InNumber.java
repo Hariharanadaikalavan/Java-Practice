@@ -3,7 +3,8 @@ public class Constructor_InNumber {
     int y;
 Constructor_InNumber(){
     x=10;
-    y=10;
+    y=10
+        0;
     System.out.println("Default Constructor Executed Sucessfully");
 }
 Constructor_InNumber(int a,int b){
