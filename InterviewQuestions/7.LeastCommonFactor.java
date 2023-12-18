@@ -3,7 +3,7 @@ public class LeastCommonFactor {
         int num1=2,num2=3;
         
         
-        int str=(num1>num2)?num1:num2;
+        int LCM =(num1>num2)?num1:num2;
         System.out.println("Largest Number is:"+str);
         
         while(true){
