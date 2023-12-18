@@ -3,7 +3,7 @@ public class HigherCommonFactor {
         int num1=12,num2=30;
         
         
-        int str=(num1<num2)?num1:num2;
+        int HCF=(num1<num2)?num1:num2;
         //System.out.println("Largest Number is:"+str);
         
         while(str>2){
