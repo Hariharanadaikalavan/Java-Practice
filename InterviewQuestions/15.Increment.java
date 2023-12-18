@@ -12,6 +12,5 @@ public class incrementDecrement {
            System.out.println(y);
           System.out.println(y--);
            System.out.println(y);
-         
-    }
+               }
 }
