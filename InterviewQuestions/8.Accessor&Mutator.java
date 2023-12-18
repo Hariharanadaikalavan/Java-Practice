@@ -1,4 +1,4 @@
-class Dummy{
+miclass Dummy{
 private String username;
 private int age;
 private String email;
@@ -44,7 +44,7 @@ public String tostring(){
 
 public static void main(String args[]) {
     final Dummy obj = new Dummy();
-    obj.setUsername("Hariharan");
+    obj.setUsername("Ramanathan");
     obj.setAge(23);
     obj.setEmail("@gmail.com");
     obj.setPhoneNumber(989447);
