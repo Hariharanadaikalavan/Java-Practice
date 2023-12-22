@@ -1,4 +1,4 @@
-public class StockOverFlowError {
+public class StockOverFlowErrors {
     
 
     double overloadedMethod(double d)
