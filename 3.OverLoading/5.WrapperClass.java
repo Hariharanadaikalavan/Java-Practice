@@ -20,8 +20,7 @@ public class WrapperClass {
     }
  
     public static void main(String[] args)
-    {
-//        method((short)12);
+    {       method((short)12);
         WrapperClass obj=new WrapperClass();
         obj.method((short)51);
     }
