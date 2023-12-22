@@ -1,4 +1,4 @@
-public class Return {
+public class ReturnExample{
      
     int method(String a){
         return 5;
