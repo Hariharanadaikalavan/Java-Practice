@@ -1,13 +1,23 @@
-import java.util.*;
+import java.util.LinkedList;
 
-class LinkedListCollection{
-public static void main(String hari[]){
-      LinkedList<String> obj=new LinkedList<String>();
-      obj.add("Hariharan");
-
-Iterator<String> obj1=obj.iterator();
-while(obj1.hasNext()){
-System.out.println(obj);
-}
-}
+public class LinkedListColl {
+    
+    public static void main(String args[]){
+           
+         LinkedList<Long> obj=new LinkedList<Long>();     
+         for(long i=10;i>=1;i--){
+            if((i&2)==0) {
+         obj.add(i);
+            }
+            
+         }
+         System.out.println(obj);
+         
+          System.out.println(obj.pollFirst());
+         System.out.println(obj);
+              
+                   
+              
+  }
+               
 }
