@@ -1,13 +1,13 @@
 public class RepeatingValue {
     public static void main(String args[]){   
-        int count=0;
+        int counter=0;
         int Number=9894470;
         while(Number!=0)
         {
                    int remainder=Number%10;
                    if(remainder==9)
                    {
-                    count++;
+                    counter++; //Condition satisfied increased by one
                    }
                  Number=Number/10;
         }
