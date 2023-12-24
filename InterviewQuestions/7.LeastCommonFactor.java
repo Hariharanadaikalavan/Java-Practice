@@ -4,10 +4,10 @@ public class LeastCommonFactor {
         
         
         int LCM =(num1>num2)?num1:num2;
-        System.out.println("Largest Number is:"+str);
+        System.out.println("Largest Number is:"+LCM);
         
         while(true){
-        if((str%num1==0)&&(str%num2==0))
+        if((LCM%num1==0)&&(LCM%num2==0))
         {
             System.out.println("LCM="+str);
             break;
