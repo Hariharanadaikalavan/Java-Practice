@@ -19,9 +19,9 @@ public class AutoMorphicNumber {
                System.out.println(PowerRemainder+"-"+Original);
                
                if(Flag==0){
-                   System.out.println("AutoMorphicNumber");
+                   System.out.print("AutoMorphicNumber");
                }else{
-                   System.out.println("The number did satify the Conditions");
+                   System.out.print("The number did satify the Conditions");
                }
     }
 }
