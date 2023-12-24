@@ -1,7 +1,7 @@
 public class RightAngleTriangle {
     public static void main(String args[]){
         int i,j;
-       for(i=1;i<=5;i++)
+       for(i=1;i<=5;i++) // Outer Loop Responsible 
        {
            for(j=i;j<=5;j++){
                System.out.print(" ");
