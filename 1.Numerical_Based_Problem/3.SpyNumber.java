@@ -1,4 +1,4 @@
-public class SpyNumber_3 {                      //input =123---> 1+2+3=1*2*3 --->6==6
+public class SpyNumber_3 {    //Sum of digits = Product of digits                //input =123---> 1+2+3=1*2*3 --->6==6
     public static void main(String args[]){
         int Original=123;
         int Number=Original,Sum=0,Product=1;
