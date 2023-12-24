@@ -6,7 +6,7 @@ public class MainMethodDeclaration {
         System.out.println("Double");
     }
     public static void print(int... a){
-        System.out.println("Int");
+        System.out.println("Int is invoked");
     }
 }
    
