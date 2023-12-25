@@ -32,7 +32,7 @@ class RemoveDuplicates {
     public static void main(String[] args)   
     {   
         // Create a string variable with default value   
-        String str = "JavaTpoint is the best learning website";   
+        String str = "hari.ramu16@gmail.com";   
         //call removeDuplicates() method for removing duplicate characters    
         removeDuplicates(str);   
     }   
