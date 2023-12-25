@@ -3,7 +3,7 @@ public class Small {
        
        String str="hariharan";
        char ch[]=str.toCharArray();
-       char Small=ch[0];
+       char Small=ch[0]; //Assume the first character as small
        for(int i=0;i<ch.length;i++){
           if(Small>ch[i]){
               Small=ch[i];
