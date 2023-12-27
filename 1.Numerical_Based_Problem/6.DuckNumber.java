@@ -3,7 +3,7 @@ public class DuckNumber_5 {               //if a number contains 0 its duckNumbe
         int Original=256000;
         int Number=Original;
         int count=0;
-        while(Number!=0)
+        while(Number!=0) //upto Zero loop to be executed
         {
                   int remainder=Number%10;
                   if(remainder==0){
