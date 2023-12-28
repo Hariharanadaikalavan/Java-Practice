@@ -25,6 +25,6 @@ public class Upcasting
     {
         C c = new C();
         
-        
+  
     }
 }
