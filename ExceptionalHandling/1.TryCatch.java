@@ -4,7 +4,7 @@ public class TryCatch {
   try{   
       int data=100/0;  
    }
-catch(ArithmeticException e)
+catch(ArithmeticException e)//Instance of object 
 {
 	System.out.println(e);
 }  
