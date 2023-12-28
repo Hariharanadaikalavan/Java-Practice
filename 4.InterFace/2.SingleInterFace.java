@@ -1,4 +1,4 @@
-interface SmartPhone{
+interface SmartPhone{ //Method declaration only
     void call();
     void browser();
     void takePhone();
@@ -9,7 +9,7 @@ interface SmartPhone{
 
 
 public class InterFace implements SmartPhone {
-    public void call(){
+    public void call(){ //Method definition 
         System.out.println("call");
     }
     public void browser(){
