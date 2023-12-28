@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class ChartoNum {
+public class ChartoNumber {
     
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
