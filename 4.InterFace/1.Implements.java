@@ -5,7 +5,7 @@ interface WorldBank{
     void grossDp();
 }
 
-class Bank implements ReverseBank,WorldBank {
+class Bank implements ReverseBank,WorldBank {  //Mulitple Inheritance
     public void fixedDesposite(){
         System.out.println("ReverseBank");
     }
