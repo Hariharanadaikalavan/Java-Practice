@@ -9,7 +9,7 @@ interface SmartPhone{ //Method declaration only
 
 
 public class InterFace implements SmartPhone {
-    public void call(){ //Method definition 
+    public void call(){ //Method definition -Concert Methods
         System.out.println("call");
     }
     public void browser(){
