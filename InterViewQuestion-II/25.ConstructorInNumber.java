@@ -25,7 +25,7 @@ public static void main(String hari[]){
 Constructor_InNumber objname2=new Constructor_InNumber(30);
 Constructor_InNumber objname1=new Constructor_InNumber(20,20);
 
-objname.display()
+objname.display()  //Method binding 
 objname1.display();
 
 objname2.display();
