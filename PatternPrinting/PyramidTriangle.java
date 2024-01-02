@@ -12,7 +12,7 @@ public class Increasing_Triangle {
                 System.out.print("* ");
             }
             System.out.println(" ");
-        }
+        }  
     }
    
 }
