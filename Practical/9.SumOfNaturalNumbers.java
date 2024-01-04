@@ -8,7 +8,7 @@ public class sumofnatural {
           int i,sum=0,n;
         System.out.println("Enter the number you want to sumupto from zero");
         n=sc.nextInt();
-        for(i=0;i<n;i++)
+        for(i=0;i<n;i++)  
         {
             if(i%2!=0)
             {
