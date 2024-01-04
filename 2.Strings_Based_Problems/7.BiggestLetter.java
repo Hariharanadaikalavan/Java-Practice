@@ -6,7 +6,7 @@ public class BiggestLetter {
        char large=ch[0]; //fixed the first as largest
        for(int i=0;i<ch.length;i++)
        {
-          if(ch[i]<large)  //Based on ascii value
+          if(ch[i]<large)  //Based on ascii values
           {
               large=ch[i];
           }
