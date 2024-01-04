@@ -6,7 +6,7 @@ public class Urinaryoprator {
        do
        {
        Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the number wheather positive or negative");
+        System.out.println("Enter the number wheather positive or negative");  using comparsion opraters
        int a=sc.nextInt();
        String res=(a>0)?"negative":"positive";
         System.out.println(res);
