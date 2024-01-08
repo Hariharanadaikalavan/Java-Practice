@@ -2,7 +2,8 @@ public class Recurssion {
     
     public int sum(int num)
     {
-    if(num==0)
+    if(num==0) //Run util number become zero
+        
     {
         return 1;
     }else{
