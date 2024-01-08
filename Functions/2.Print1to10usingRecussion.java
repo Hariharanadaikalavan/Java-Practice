@@ -1,6 +1,6 @@
 public class Recussion {
     
-    public static void num(int a){
+    public  void num(int a){
     if(a>0){
         num(a-1);
       }
