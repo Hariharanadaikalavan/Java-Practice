@@ -7,7 +7,7 @@ public class RemoveDuplicate {
                  if(arr[i]!=arr[j])
                  {
                      arr[j]=arr[i];
-                    System.out.println(arr[j]);
+                    System.out.println(arr[j]);  
                  }
        }       
   }
