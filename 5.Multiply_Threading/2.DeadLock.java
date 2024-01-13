@@ -8,7 +8,7 @@ public class DeadlockExample {
                 System.out.println("Thread 1: Holding lock 1");
 
                 try {
-                    Thread.sleep(100);
+                     Thread.sleep(1000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
