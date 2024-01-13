@@ -10,7 +10,7 @@ public class KrishnamurthyNumber_8 {
                              int fact=1;
                              for(int i=1;i<=Remainder;i++){
                              fact=fact*i;
-                              }
+                              }  
                               sum=sum+fact;
                     Number=Number/10;
         }
