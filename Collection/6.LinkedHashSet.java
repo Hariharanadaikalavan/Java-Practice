@@ -8,7 +8,7 @@ LinkedList<String>obj=new LinkedList<String>();
 obj.add("hariharan");
 
 Itertor<String>itr=obj.itertor();
-while(itr.hasNext(){
+while(itr.hasNext(){  
 System.out.println(itr.next());
 }
 }
