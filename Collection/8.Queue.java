@@ -1,5 +1,5 @@
 public class QueueList {
-    
+       
     public static void main(String args[]){
         
         Queue<Integer> obj=new LinkedList<Integer>();
