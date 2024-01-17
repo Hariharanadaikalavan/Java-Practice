@@ -1,0 +1,19 @@
+public class listtoArray {
+    public static void main(String args[]){
+ArrayList<String> cities=new ArrayList<String>();
+cities.add("Coimbatore");
+cities.add("chennai");
+
+        String[] city=new String[cities.size()];
+        
+        for(int i=0;i<cities.size();i++){
+            city[i]=cities.get(i);
+        }
+        
+        for(String i:cities){
+            System.out.println(i);
+        }
+
+
+    }
+}
