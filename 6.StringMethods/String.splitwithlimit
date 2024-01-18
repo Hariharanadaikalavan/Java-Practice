@@ -1,0 +1,29 @@
+public class NewClass {
+    public static void main(String args[]){
+        String vowels = "a:bc:de:fg:h";
+        
+        
+        String[] result = vowels.split(":", -2);
+
+    System.out.println("result when limit is -2 = " + Arrays.toString(result));
+
+    // limit is 0; array contains all substrings
+    result = vowels.split(":", 0);
+    System.out.println("result when limit is 0 = " + Arrays.toString(result));
+
+    String[] result1 = vowels.split(":", -2);
+
+    System.out.println("result when limit is -2 = " + Arrays.toString(result1));
+
+    // limit is 0; array contains all substrings
+    result = vowels.split(":", 2);
+    System.out.println("result when limit is 0 = " + Arrays.toString(result));
+
+    }
+}
+
+result when limit is -2 = [a, bc, de, fg, h]
+result when limit is 0 = [a, bc, de, fg, h]
+result when limit is -2 = [a, bc, de, fg, h]
+result when limit is 0 = [a, bc:de:fg:h]
+BUILD SUCCESSFUL (total time: 0 seconds)
