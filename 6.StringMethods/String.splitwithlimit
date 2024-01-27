@@ -2,7 +2,7 @@ public class NewClass {
     public static void main(String args[]){
         String vowels = "a:bc:de:fg:h";
         
-        
+          
         String[] result = vowels.split(":", -2);
 
     System.out.println("result when limit is -2 = " + Arrays.toString(result));
