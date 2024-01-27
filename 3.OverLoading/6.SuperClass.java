@@ -1,4 +1,4 @@
-class SuperClasss
+class SuperClasss   
 {
 //    void superClassMethod(Number n)
     void superClassMethod(Integer n)
