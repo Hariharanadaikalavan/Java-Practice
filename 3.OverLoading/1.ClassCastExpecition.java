@@ -4,7 +4,7 @@ class X
     {
         System.out.println("Class X");
     }
-}
+}.  
  
 class Y extends X
 {
