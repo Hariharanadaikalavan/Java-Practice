@@ -4,7 +4,7 @@ public class InvertedRightAngleTriangle {
         for(int i=j;i>0;i--)
         {
             System.out.print("* ");
-        }
+        }b
         System.out.println(" ");
         }
         
